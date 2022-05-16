@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemerintah Desa Sokaraja Tengah</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- End Icon -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- End CSS -->
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/hBarChart.js"></script>
+    <!-- End Script -->
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <!-- Image and text -->
+        <nav class="navbar navbar-dark " style="margin-top: -15px; margin-bottom: -20px; background-color: #F6F6F6;">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img src="image/Colorful Food Logo.png" class="me-2" height="100px" alt="MDB Logo" loading="lazy" />
+                </a>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 130px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PROFIL DESA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sejarah-desa.html">Sejarah Desa</a></li>
+                            <li><a class="dropdown-item" href="visi-dan-misi.html">Visi & Misi</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PEMERINTAHAN DESA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="aparatur.html">Aparatur Desa</a></li>
+                            <li><a class="dropdown-item" href="data-wilayah.html">Data wilayah</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            DATA DESA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="keadaan-tanah.html">Keadaan Tanah</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="dropdown" style="margin-right: 6.3cm;">
+                    <button class="btn btn-close-white dropdown-center" href="#" id="navbarDropdown" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="input-group dropdown-item d-flex" style="margin-right: 6cm;">
+                            <input type="search" class="form-control rounded " placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <button type="button" class="btn btn-outline-primary ">search</button>
+                        </div>
+
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Main Content -->
+
+    <main>
+        <div class="p-1" style="background-color: #FFFFFF;">
+            <!-- Content-->
+            <section id="about">
+                <div class="container m-5 p-5">
+                    <div class="row">
+                        <div class="col-md-8 mb-0" style="margin-top: -50px;">
+                            <!-- Content -->
+                            <section id="aparatur">
+                                <div class="container">
+                                    <div class="row mb-5">
+                                        <div class="col-12 text-center">
+                                            <h2>ARTIKEL</h2>
+                                        </div>
+                                        <div class="card text-white bg-dark mb-3 text-center" style="max-width: 50rem;">
+                                            <h4>DATA PEKERJAAN PENDUDUK DESA SOKARAJA TENGAH</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mb-5" style="margin-top: -35px;">
+                                    <h5>PEMERINTAH KABUPATEN BANYUMAS </h5>
+                                    <h5>KECAMATAN SOKARAJA </h5>
+                                    <h5>DESA/KELURAHAN SOKARAJA TENGAH </h5>
+                                    <h5>REKAPITULASI JUMLAH PENDUDUK BERDASARKAN PEKERJAAN </h5>
+                                    <h5>Tgl. 25-04-2022</h5>
+                                </div>
+                                <table class="table mb-5">
+                                    <thead>
+                                        <tr>
+                                            <th scope=" col ">NO</th>
+                                            <th scope="col ">PEKERJAAN</th>
+                                            <th scope="col ">LK</th>
+                                            <th scope="col ">PR</th>
+                                            <th scope="col ">JUMLAH</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table table-bordered ">
+                                        <tr>
+                                            <th scope="row ">1</th>
+                                            <td>BELUM/TIDAK BEKERJA </td>
+                                            <td>806</td>
+                                            <td>768</td>
+                                            <td>1.574</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">2</th>
+                                            <td>MENGURUS RUMAH TANGGA</td>
+                                            <td>-</td>
+                                            <td>1.307 </td>
+                                            <td>1.307 </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">3</th>
+                                            <td>PELAJAR/MAHASISWA </td>
+                                            <td>709 </td>
+                                            <td>606 </td>
+                                            <td>1.315</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">4</th>
+                                            <td>PENSIUNAN</td>
+                                            <td>91</td>
+                                            <td>55</td>
+                                            <td>146</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">5</th>
+                                            <td>PEGAWAI NEGERI SIPIL</td>
+                                            <td>66 </td>
+                                            <td>76 </td>
+                                            <td>142 </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">6</th>
+                                            <td>TENTARA NASIONAL INDONESIA </td>
+                                            <td>3</td>
+                                            <td>-</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">7</th>
+                                            <td>KEPOLISIAN RI</td>
+                                            <td>10 </td>
+                                            <td>2</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">8</th>
+                                            <td>PERDAGANGAN</td>
+                                            <td>8</td>
+                                            <td>15</td>
+                                            <td>23</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">9</th>
+                                            <td>PETANI/PEKEBUN</td>
+                                            <td>10</td>
+                                            <td>4</td>
+                                            <td>14</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">10</th>
+                                            <td>PETERNAK </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">11</th>
+                                            <td>NELAYAN/PERIKANAN</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">12</th>
+                                            <td>INDUSTRI </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">13</th>
+                                            <td>KONSTRUKSI </td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">14</th>
+                                            <td>TRANSPORTASI </td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">15</th>
+                                            <td>KARYAWAN SWASTA</td>
+                                            <td>565</td>
+                                            <td>266</td>
+                                            <td>831</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">16</th>
+                                            <td>KARYAWAN BUMN</td>
+                                            <td>26</td>
+                                            <td>7</td>
+                                            <td>33</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">17</th>
+                                            <td>KARYAWAN BUMO</td>
+                                            <td>3</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">18</th>
+                                            <td>KARYAWAN HONORER </td>
+                                            <td>6</td>
+                                            <td>4</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">19</th>
+                                            <td>BURUH HARIAN LEPAS </td>
+                                            <td>540</td>
+                                            <td>145</td>
+                                            <td>685</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">20</th>
+                                            <td>BURUH TANI/PERKEBUNAN</td>
+                                            <td>17</td>
+                                            <td>1</td>
+                                            <td>18</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">21</th>
+                                            <td>BURUH NELAYAN/PERIKANAN</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">22</th>
+                                            <td>BURUH PETERNAKAN </td>
+                                            <td>2</td>
+                                            <td>-</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">23</th>
+                                            <td>PEMBANTU RUMAH TANGGA </td>
+                                            <td>-</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">24</th>
+                                            <td>TUKANG CUKUR</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">25</th>
+                                            <td>TUKANG LISTRIK</td>
+                                            <td>2</td>
+                                            <td>-</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">26</th>
+                                            <td>TUKANG BATU </td>
+                                            <td>12</td>
+                                            <td>-</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">27</th>
+                                            <td>TUKANG KAYU </td>
+                                            <td>8</td>
+                                            <td>-</td>
+                                            <td>8</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">28</th>
+                                            <td>TUKANG SOL SEPATU</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">29</th>
+                                            <td>TUKANG LAS/PANDAI BESI</td>
+                                            <td>2</td>
+                                            <td>-</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">30</th>
+                                            <td>TUKANG JAHIT </td>
+                                            <td>3</td>
+                                            <td>10</td>
+                                            <td>13</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">31</th>
+                                            <td>TUKANG GIGI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">32</th>
+                                            <td>PENATA RIAS </td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">33</th>
+                                            <td>PENATA BUSANA</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">34</th>
+                                            <td>PENATA RAMBUT</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">35</th>
+                                            <td>MEKANIK</td>
+                                            <td>5</td>
+                                            <td>-</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">36</th>
+                                            <td>SENIMAN</td>
+                                            <td>5</td>
+                                            <td>-</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">37</th>
+                                            <td>TABIB</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">38</th>
+                                            <td>PARAJI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">39</th>
+                                            <td>PERANCANG SUSANA </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">40</th>
+                                            <td>PENTERJEMAH</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">41</th>
+                                            <td>IMAM MESJID </td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">42</th>
+                                            <td>PENDETA</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">43</th>
+                                            <td>PASTOR</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">44</th>
+                                            <td>WARTAWAN</td>
+                                            <td>2</td>
+                                            <td>-</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">45</th>
+                                            <td>USTAOZ/MUBALIGH </td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">46</th>
+                                            <td>JURU MASAK </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">47</th>
+                                            <td>PROMOTOR ACARA</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">48</th>
+                                            <td>ANGGOTA DPR-RI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">49</th>
+                                            <td>ANGGOTA DPD </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">50</th>
+                                            <td>ANGGOTA BPK </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">51</th>
+                                            <td>PRESIDEN</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">52</th>
+                                            <td>WAKIL PRESIDEN </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">53</th>
+                                            <td>ANGGOTA MAHKAMAH KONSTITUSI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">54</th>
+                                            <td>ANGGOTA KABINET/KEMENTERIAN</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">55</th>
+                                            <td>DUTABESAR</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">56</th>
+                                            <td>GUBERNUR </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">57</th>
+                                            <td>WAKIL GUBERNUR </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">58</th>
+                                            <td>BUPATI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">59</th>
+                                            <td>WAKIL BUPATI </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">60</th>
+                                            <td>WALIKOTA
+                                            </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">61</th>
+                                            <td>WAKIL WALIKOTA </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">62</th>
+                                            <td>ANGGOTA DPRD PROVINS! </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">63</th>
+                                            <td>ANGGOTA DPRD KABUPATEN/KOTA</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">64</th>
+                                            <td>DOSEN</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">65</th>
+                                            <td>GURU</td>
+                                            <td>15</td>
+                                            <td>59</td>
+                                            <td>74</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">66</th>
+                                            <td>PILOT</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">67</th>
+                                            <td>PENGACARA</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">68</th>
+                                            <td>NOTARIS</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">69</th>
+                                            <td>ARSITEK</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">70</th>
+                                            <td>AKUNTAN</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">71</th>
+                                            <td>KONSULTAN</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">72</th>
+                                            <td>DOKTER</td>
+                                            <td>4</td>
+                                            <td>6</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">73</th>
+                                            <td>BIDAN</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">74</th>
+                                            <td>PERAWAT</td>
+                                            <td>-</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">75</th>
+                                            <td>APOTEKER</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">76</th>
+                                            <td>PSIKIATER/PSIKOLOG </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">77</th>
+                                            <td>PENYIAR TELEVISI </td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">78</th>
+                                            <td>PENYIAR RADIO</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">79</th>
+                                            <td>PELAUT</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">80</th>
+                                            <td>PENELITI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">81</th>
+                                            <td>SOPIR</td>
+                                            <td>36</td>
+                                            <td>-</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">82</th>
+                                            <td>PIALANG</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">83</th>
+                                            <td>PARANORMAL</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">84</th>
+                                            <td>PEDAGANG</td>
+                                            <td>197</td>
+                                            <td>236</td>
+                                            <td>433</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">85</th>
+                                            <td>PERANGKAT DESA </td>
+                                            <td>8</td>
+                                            <td>2</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">86</th>
+                                            <td>KEPALADESA</td>
+                                            <td>1</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">87</th>
+                                            <td>BIARAWATI</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">88</th>
+                                            <td>WIRASWASTA</td>
+                                            <td>406</td>
+                                            <td>115</td>
+                                            <td>521</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row ">89</th>
+                                            <td>LAINNYA</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2 " style="text-align: center; ">
+                                                JUMLAH
+                                            </td>
+                                            <td>
+                                                3.583
+                                            </td>
+                                            <td>
+                                                3.704
+                                            </td>
+                                            <td>
+                                                7.287
+                                            </td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </section>
+                            <!-- End Content -->
+                        </div>
+                        <!-- Cuaca -->
+                        <div class="col-md-4 mb-5 ">
+                            <section class=" " style="background-color: #ffffff; ">
+                                <div class="container py-0 h-100 ">
+                                    <div class="row d-flex justify-content-center align-items-center h-100 ">
+                                        <div class=" ">
+                                            <div class="card " style="color: #4B515D; border-radius: 35px; ">
+                                                <div class="card-body p-4 ">
+
+                                                    <div class="d-flex ">
+                                                        <h5 class="flex-grow-1 ">SOKARAJA, BANYUMAS</h5>
+                                                        <h5>15:07</h5>
+                                                    </div>
+
+                                                    <div class="d-flex flex-column text-center mt-5 mb-4 ">
+                                                        <h5 class="display-4 mb-0 font-weight-bold " style="color: #1C2331; "> 19°C </h5>
+                                                        <span class="small " style="color: #868B94 ">Hujan Badai</span>
+                                                    </div>
+
+                                                    <div class="d-flex align-items-center ">
+                                                        <div class="flex-grow-1 " style="font-size: 1rem; ">
+                                                            <div>
+                                                                <i class="fas fa-wind fa-fw " style="color: #868B94; "></i>
+                                                                <span class="ms-1 "> 40 km/h</span>
+                                                            </div>
+                                                            <div>
+                                                                <i class="fas fa-tint fa-fw " style="color: #868B94; "></i>
+                                                                <span class="ms-1 "> 84% </span>
+                                                            </div>
+                                                            <div>
+                                                                <i class="fas fa-sun fa-fw " style="color: #868B94; "></i>
+                                                                <span class="ms-1 "> 0.2h </span>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/ilu1.webp " width="100px ">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <!-- End Cuaca -->
+                            <h5 style="margin-top: 15px; margin-bottom: 1px; ">
+                                <img src="image/analytics.png " class="img-fluid " alt="... " width="30 " height="30 "> STATISTIK PENDUDUK
+                            </h5>
+                            <div class="progress " style="margin-bottom: 5px; ">
+                                <div class="progress-bar w-75 " role="progressbar " aria-valuenow="75 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                            </div>
+                            <!-- Statistik Penduduk -->
+                            <div class="card mb-0 ">
+                                <section>
+                                    <div class="container " style="margin-bottom: 20px; margin-top: 15px; ">
+                                        <div class="row ">
+                                            <div class="col-md-12 ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-heading ">
+                                                        <h5 class="panel-title text-center ">
+                                                            Jumlah Penduduk
+                                                        </h5>
+                                                    </div>
+                                                    <div class="panel-body ">
+                                                        <div>
+                                                            <ul class="horizontal-chart-demo ">
+                                                                <li data-data="3583 ">
+                                                                    Laki-laki
+                                                                </li>
+                                                                <li data-data="3704 ">
+                                                                    Perempuan
+                                                                </li>
+                                                                <li data-data="7287 ">
+                                                                    Total
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div style="margin-top: 20px; ">
+                                                            <h6 class="panel-title text-center " role="button ">
+                                                                <a class="nav-link " href="data-jenis-kelamin.html " style="text-decoration: none; ">
+                                                                    <span>DETAIL REKAPITULASI PENDUDUK</span>
+                                                                </a>
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- End Statistik Penduduk -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Content -->
+        </div>
+
+        <!-- Jumbotron -->
+        <section class="jumbotron " style="margin-top: -120px; ">
+            <div class="jumbotron warna-bg ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-12 col-sm-3 ">
+                            <h2>
+                                <img src="image/location.png " class="img-fluid " alt="... " width="30 " height="30 "> LOCATION
+                            </h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31649.030739618996!2d109.2436987185801!3d-7.450995105978522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea49d9f9885%3A0x62be0b6159700ec9!2sInstitut%20Teknologi%20Telkom%20Purwokerto!5e0!3m2!1sid!2sid!4v1649789446941!5m2!1sid!2sid "
+                                width="280 " height="200 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                        </div>
+                        <div class="col-6 col-sm-9 ">
+                            <div class="text-center ">
+                                <hr>
+                                <h2>
+                                    STATISTIK DESA
+                                </h2>
+                            </div>
+                            <div class="container " style="font-size: 20px; ">
+                                <div class="row " style="margin-top: 20px; ">
+                                    <div class="col-6 col-sm-4 mx-4 ">
+                                        <i class="fa-solid fa-map-location-dot "> </i>
+                                        <a href="data-wilayah.html " class="nav-link d-inline " role="button ">
+                                            <span>Data Wilayah</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 ">
+                                        <i class="fa-solid fa-school-flag "></i>
+                                        <a href="data-pendidikan.html " class="nav-link d-inline " role="button ">
+                                            <span>Data Pendidikan</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-3 ">
+                                        <i class="fa-solid fa-briefcase "></i>
+                                        <a href="data-pekerjaan.html " class="nav-link d-inline " role="button ">
+                                            <span>Data Pekerjaan</span>
+                                        </a>
+                                    </div>
+
+                                    <!-- Force next columns to break to new line -->
+                                    <div class=" " style="margin-top: 1cm; "></div>
+
+                                    <div class="col-6 col-sm-3 mx-auto ">
+                                        <i class="fa-solid fa-star-and-crescent "></i>
+                                        <a href="# " class="nav-link d-inline " role="button ">
+                                            <span>Data Agama</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-3 mx-auto ">
+                                        <i class="fa-solid fa-people-group "></i>
+                                        <a href="# " class="nav-link d-inline " role="button ">
+                                            <span>Statistik umur</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Jumbotron -->
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted " style="background-color: rgba(0, 0, 0, 0.05); margin-top: 1cm; ">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block ">
+                <div>
+                    &copy;
+                </div>
+                <div style="margin-left: 19px; margin-top: -21px; ">
+                    <h5>PEMDES SOKARAJA TENGAH</h5>
+                    <p>Jl. Krida Mandala, Dusun I Sokaraja Tengah, Karangdadap,
+                        <br> Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah 53181
+                    </p>
+                </div>
+
+            </div>
+            <!-- End Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="# " class=" me-4 text-reset " style="text-decoration: none; ">
+                    <span>Kontak</span>
+
+                </a>
+                <a href="# " class="me-4 text-reset " style="text-decoration: none; ">
+                    <span>Masukan</span>
+
+                </a>
+                <a href="# " class="me-4 text-reset " style="text-decoration: none; ">
+                    <span>Kebijakan Privasi</span>
+
+                </a>
+            </div>
+            <!-- End Right -->
+        </section>
+        <!-- Section: Social media -->
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+<script>
+    $(function() {
+        $(".horizontal-chart-demo ").hBarChart();
+    })
+</script>
+
+</html>

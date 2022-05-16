@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemerintah Desa Sokaraja Tengah</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- End Icon -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- End CSS -->
+    <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/hBarChart.js"></script>
+    <!-- End Script -->
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <!-- Image and text -->
+        <nav class="navbar navbar-dark " style="margin-top: -15px; margin-bottom: -20px; background-color: #F6F6F6;">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img src="image/Colorful Food Logo.png" class="me-2" height="100px" alt="MDB Logo" loading="lazy" />
+                </a>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 130px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PROFIL DESA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sejarah-desa.html">Sejarah Desa</a></li>
+                            <li><a class="dropdown-item" href="visi-dan-misi.html">Visi & Misi</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PEMERINTAHAN DESA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="aparatur.html">Aparatur Desa</a></li>
+                            <li><a class="dropdown-item" href="data-wilayah.html">Data wilayah</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            DATA DESA
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="keadaan-tanah.html">Keadaan Tanah</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="dropdown" style="margin-right: 6.3cm;">
+                    <button class="btn btn-close-white dropdown-center" href="#" id="navbarDropdown" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <div class="input-group dropdown-item d-flex" style="margin-right: 6cm;">
+                            <input type="search" class="form-control rounded " placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <button type="button" class="btn btn-outline-primary ">search</button>
+                        </div>
+
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Main Content -->
+
+    <main>
+        <div class="p-1" style="background-color: #FFFFFF;">
+            <!-- Content-->
+            <section id="about">
+                <div class="container m-5 p-5">
+                    <div class="row">
+                        <div class="col-md-8 mb-0" style="margin-top: -50px;">
+                            <!-- Content -->
+                            <section id="aparatur">
+                                <div class="container">
+                                    <div class="row mb-5">
+                                        <div class="col-12 text-center">
+                                            <h2>ARTIKEL</h2>
+                                        </div>
+                                        <div class="card text-white bg-dark mb-3 text-center" style="max-width: 50rem;">
+                                            <h5>DATA JENIS KELAMIN PENDUDUK DESA SOKARAJA TENGAH</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mb-5" style="margin-top: -35px;">
+                                    <h5>PEMERINTAH KABUPATEN BANYUMAS </h5>
+                                    <h5>KECAMATAN SOKARAJA </h5>
+                                    <h5>DESA/KELURAHAN SOKARAJA TENGAH </h5>
+                                    <h5>REKAPITULASI JUMLAH PENDUDUK BERDASARKAN PEKERJAAN </h5>
+                                    <h5>Tgl. 25-04-2022</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <table class="table mb-5">
+                                            <thead>
+                                                <tr>
+                                                    <th scope=" col ">NO</th>
+                                                    <th scope="col ">NO RW</th>
+                                                    <th scope="col ">LAKI-LAKI</th>
+                                                    <th scope="col ">PEREMPUAN</th>
+                                                    <th scope="col ">JUMLAH</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="table table-bordered ">
+                                                <tr>
+                                                    <th scope="row ">1</th>
+                                                    <td>RW.001 </td>
+                                                    <td>714</td>
+                                                    <td>731</td>
+                                                    <td>1.445</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">2</th>
+                                                    <td>RW.002 </td>
+                                                    <td>527</td>
+                                                    <td>554</td>
+                                                    <td>1.081</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">3</th>
+                                                    <td>RW.003 </td>
+                                                    <td>498 </td>
+                                                    <td>524 </td>
+                                                    <td>1.022</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">4</th>
+                                                    <td>RW.004 </td>
+                                                    <td>376</td>
+                                                    <td>383</td>
+                                                    <td>759</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">5</th>
+                                                    <td>RW.005 </td>
+                                                    <td>515 </td>
+                                                    <td>543 </td>
+                                                    <td>1.058 </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">6</th>
+                                                    <td>RW.006 </td>
+                                                    <td>524</td>
+                                                    <td>538</td>
+                                                    <td>1.062</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">7</th>
+                                                    <td>RW.007 </td>
+                                                    <td>426 </td>
+                                                    <td>430</td>
+                                                    <td>856</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row ">8</th>
+                                                    <td>RW.008 </td>
+                                                    <td>3</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2 " style="text-align: center; ">
+                                                        JUMLAH
+                                                    </td>
+                                                    <td>
+                                                        3.583
+                                                    </td>
+                                                    <td>
+                                                        3.704
+                                                    </td>
+                                                    <td>
+                                                        7.287
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End Content -->
+                        </div>
+                        <!-- Cuaca -->
+                        <div class="col-md-4 mb-5 ">
+                            <section class=" " style="background-color: #ffffff; ">
+                                <div class="container py-0 h-100 ">
+                                    <div class="row d-flex justify-content-center align-items-center h-100 ">
+                                        <div class=" ">
+                                            <div class="card " style="color: #4B515D; border-radius: 35px; ">
+                                                <div class="card-body p-4 ">
+
+                                                    <div class="d-flex ">
+                                                        <h5 class="flex-grow-1 ">SOKARAJA, BANYUMAS</h5>
+                                                        <h5>15:07</h5>
+                                                    </div>
+
+                                                    <div class="d-flex flex-column text-center mt-5 mb-4 ">
+                                                        <h5 class="display-4 mb-0 font-weight-bold " style="color: #1C2331; "> 19°C </h5>
+                                                        <span class="small " style="color: #868B94 ">Hujan Badai</span>
+                                                    </div>
+
+                                                    <div class="d-flex align-items-center ">
+                                                        <div class="flex-grow-1 " style="font-size: 1rem; ">
+                                                            <div>
+                                                                <i class="fas fa-wind fa-fw " style="color: #868B94; "></i>
+                                                                <span class="ms-1 "> 40 km/h</span>
+                                                            </div>
+                                                            <div>
+                                                                <i class="fas fa-tint fa-fw " style="color: #868B94; "></i>
+                                                                <span class="ms-1 "> 84% </span>
+                                                            </div>
+                                                            <div>
+                                                                <i class="fas fa-sun fa-fw " style="color: #868B94; "></i>
+                                                                <span class="ms-1 "> 0.2h </span>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/ilu1.webp " width="100px ">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </section>
+                            <!-- End Cuaca -->
+                            <h5 style="margin-top: 15px; margin-bottom: 1px; ">
+                                <img src="image/analytics.png " class="img-fluid " alt="... " width="30 " height="30 "> STATISTIK PENDUDUK
+                            </h5>
+                            <div class="progress " style="margin-bottom: 5px; ">
+                                <div class="progress-bar w-75 " role="progressbar " aria-valuenow="75 " aria-valuemin="0 " aria-valuemax="100 "></div>
+                            </div>
+                            <!-- Statistik Penduduk -->
+                            <div class="card mb-0 ">
+                                <section>
+                                    <div class="container " style="margin-bottom: 20px; margin-top: 15px; ">
+                                        <div class="row ">
+                                            <div class="col-md-12 ">
+                                                <div class="panel panel-default ">
+                                                    <div class="panel-heading ">
+                                                        <h5 class="panel-title text-center ">
+                                                            Jumlah Penduduk
+                                                        </h5>
+                                                    </div>
+                                                    <div class="panel-body ">
+                                                        <div>
+                                                            <ul class="horizontal-chart-demo ">
+                                                                <li data-data="3583 ">
+                                                                    Laki-laki
+                                                                </li>
+                                                                <li data-data="3704 ">
+                                                                    Perempuan
+                                                                </li>
+                                                                <li data-data="7287 ">
+                                                                    Total
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div style="margin-top: 20px; ">
+                                                            <h6 class="panel-title text-center " role="button ">
+                                                                <a class="nav-link " href="data-jenis-kelamin.html " style="text-decoration: none; ">
+                                                                    <span>DETAIL REKAPITULASI PENDUDUK</span>
+                                                                </a>
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <!-- End Statistik Penduduk -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Content -->
+        </div>
+
+        <!-- Jumbotron -->
+        <section class="jumbotron " style="margin-top: -120px; ">
+            <div class="jumbotron warna-bg ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-12 col-sm-3 ">
+                            <h2>
+                                <img src="image/location.png " class="img-fluid " alt="... " width="30 " height="30 "> LOCATION
+                            </h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31649.030739618996!2d109.2436987185801!3d-7.450995105978522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea49d9f9885%3A0x62be0b6159700ec9!2sInstitut%20Teknologi%20Telkom%20Purwokerto!5e0!3m2!1sid!2sid!4v1649789446941!5m2!1sid!2sid "
+                                width="280 " height="200 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                        </div>
+                        <div class="col-6 col-sm-9 ">
+                            <div class="text-center ">
+                                <hr>
+                                <h2>
+                                    STATISTIK DESA
+                                </h2>
+                            </div>
+                            <div class="container " style="font-size: 20px; ">
+                                <div class="row " style="margin-top: 20px; ">
+                                    <div class="col-6 col-sm-4 mx-4 ">
+                                        <i class="fa-solid fa-map-location-dot "> </i>
+                                        <a href="data-wilayah.html " class="nav-link d-inline " role="button ">
+                                            <span>Data Wilayah</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 ">
+                                        <i class="fa-solid fa-school-flag "></i>
+                                        <a href="data-pendidikan.html " class="nav-link d-inline " role="button ">
+                                            <span>Data Pendidikan</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-3 ">
+                                        <i class="fa-solid fa-briefcase "></i>
+                                        <a href="data-pekerjaan.html " class="nav-link d-inline " role="button ">
+                                            <span>Data Pekerjaan</span>
+                                        </a>
+                                    </div>
+
+                                    <!-- Force next columns to break to new line -->
+                                    <div class=" " style="margin-top: 1cm; "></div>
+
+                                    <div class="col-6 col-sm-3 mx-auto ">
+                                        <i class="fa-solid fa-star-and-crescent "></i>
+                                        <a href="# " class="nav-link d-inline " role="button ">
+                                            <span>Data Agama</span>
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-3 mx-auto ">
+                                        <i class="fa-solid fa-people-group "></i>
+                                        <a href="# " class="nav-link d-inline " role="button ">
+                                            <span>Statistik umur</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Jumbotron -->
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted " style="background-color: rgba(0, 0, 0, 0.05); margin-top: 1cm; ">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom ">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block ">
+                <div>
+                    &copy;
+                </div>
+                <div style="margin-left: 19px; margin-top: -21px; ">
+                    <h5>PEMDES SOKARAJA TENGAH</h5>
+                    <p>Jl. Krida Mandala, Dusun I Sokaraja Tengah, Karangdadap,
+                        <br> Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah 53181
+                    </p>
+                </div>
+
+            </div>
+            <!-- End Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="# " class=" me-4 text-reset " style="text-decoration: none; ">
+                    <span>Kontak</span>
+
+                </a>
+                <a href="# " class="me-4 text-reset " style="text-decoration: none; ">
+                    <span>Masukan</span>
+
+                </a>
+                <a href="# " class="me-4 text-reset " style="text-decoration: none; ">
+                    <span>Kebijakan Privasi</span>
+
+                </a>
+            </div>
+            <!-- End Right -->
+        </section>
+        <!-- Section: Social media -->
+    </footer>
+    <!-- End Footer -->
+
+</body>
+
+<script>
+    $(function() {
+        $(".horizontal-chart-demo ").hBarChart();
+    })
+</script>
+
+</html>
